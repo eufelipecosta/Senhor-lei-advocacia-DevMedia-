@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+
+div {
+    font-family: Arial;
+    margin: 100px;
+}
+
+.top {
+    margin-left: 301px;
+    padding-top: 2px;
+}
+
+.img-capa {
+    background-size: cover; 
+
+}
