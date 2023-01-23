@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* Topo*/
+.secao-topo {
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.secao-largura-limitada {
+    width: 890px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+.secao-topo p {
+    padding: 22px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Secão inicial com imagem de fundo*/
+.secao-background-capa {
+    background-image: url('img/capa.jpg');
+    height: 556px;
+    background-size: cover;
+}
+
+.secao-background-conteudo {
+    text-align: right;
+    padding: 54px 20px;
+    font-size: 18px;
+}
+
+/* Secão conteudo*/
+.secao-conteudo {
+    padding: 56px 20px;
+    font-size: 18px;  
+}
+
+.img-conteudo {
+    width: 278px;
+    height: 198px;
+}
+
+.secao-conteudo span {
+    border-left: 1px solid;
+    padding-left: 10px;
+    font-size: 22px;
+
+}
+
+/* Secão com imagem de fundo e texto*/
+.secao-background-divisao {
+    padding: 58px 0;
+    text-align: center;
+    background-image: url('img/fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.secao-background-divisao h3 {
+    font-size: 40px;
+    background-color: #fff;
+    width: 220px;
+    margin: 0 auto;
+    border-radius: 22px;
+}
